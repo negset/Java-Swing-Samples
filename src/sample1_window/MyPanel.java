@@ -69,7 +69,7 @@ public class MyPanel extends JPanel implements Runnable
 	 */
 	public void update()
 	{
-		// X座標を 2 ずつ増やす.
+		// X座標を2ずつ増やす.
 		// 右端まで来たら,左端に戻す.
 		x = x < WIDTH ? x + 2 : -20;
 	}
